@@ -1,7 +1,7 @@
 class Coffee:
     
     def __init__(self, name) -> None:
-        #initialize name and list to store orders associated to a customer
+        #initialize name and list to store orders associated to a coffee
         self.name = name
         self._orders = []
         

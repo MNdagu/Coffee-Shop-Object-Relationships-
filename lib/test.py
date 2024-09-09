@@ -4,9 +4,9 @@ from order import Order
 
 
 # Create some customers
-alice = Customer("Alice")
+alex = Customer("Alex")
 bob = Customer("Bob")
-john = Customer("John")
+mark = Customer("Mark")
 
 # Create some coffees
 espresso = Coffee("Espresso")
@@ -14,10 +14,10 @@ latte = Coffee("Latte")
 black = Coffee("Black")
 
 # Create orders
-order1 = alice.create_order(espresso, 4.50)
+order1 = alex.create_order(espresso, 4.50)
 order2 = bob.create_order(espresso, 5.00)
-order3 = alice.create_order(latte, 3.75)
-order4 = Order(john, black, 3.50)
+order3 = alex.create_order(latte, 3.75)
+order4 = Order(mark, black, 3.50)
 
 print(order4.customer.name)  
 print(order4.coffee.name)    
@@ -35,8 +35,8 @@ print(espresso.average_price())
 # Find the customer who spent the most on coffee1
 print(Customer.most_aficionado(black)) 
 
-print(alice.orders())
-print(alice.coffees())
+print(alex.orders())
+print(alex.coffees())
 
 print(latte.orders())
 print(latte.customers())
