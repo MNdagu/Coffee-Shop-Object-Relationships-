@@ -37,7 +37,7 @@ class Customer:
     #method to return a unique list of all coffees a customer has ordered using set
     def coffees(self):
         unique_coffees = set(order.coffee.name for order in self._orders)
-        return f'List of customers : {list(unique_coffees)}'
+        return f'List of coffees : {list(unique_coffees)}'
     
     #method to create and return a new Order instance
     def create_order(self, coffee, price):

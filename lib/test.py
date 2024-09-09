@@ -27,13 +27,13 @@ print(order4.price)
 print(espresso.num_orders()) 
 
 # Get unique customers who ordered a specific coffee
-print(espresso.customers())  # Output: [customer1, customer2]
+print(espresso.customers())  
 
 # Check the average price for coffee1
-print(espresso.average_price())  # Output: 4.75
+print(espresso.average_price())  
 
 # Find the customer who spent the most on coffee1
-print(Customer.most_aficionado(black))  # Output: customer2
+print(Customer.most_aficionado(black)) 
 
 print(alice.orders())
 print(alice.coffees())
