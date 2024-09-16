@@ -29,10 +29,10 @@ print(espresso.num_orders())
 # Get unique customers who ordered a specific coffee
 print(espresso.customers())  
 
-# Check the average price for coffee
+# Check the average price for a coffee
 print(espresso.average_price())  
 
-# Find the customer who spent the most on coffee
+# Find the customer who spent the most on a coffee
 print(Customer.most_aficionado(black)) 
 
 print(alex.orders())
